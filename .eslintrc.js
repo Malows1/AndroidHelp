@@ -28,6 +28,7 @@ module.exports = {
         'react',
     ],
     rules: {
+        'linebreak-style': 0,
         indent: ['error', 4, { SwitchCase: 1, flatTernaryExpressions: true }],
         'max-len': ['error', { code: 120, ignoreUrls: true }],
         'react/jsx-indent': ['error', 4],
