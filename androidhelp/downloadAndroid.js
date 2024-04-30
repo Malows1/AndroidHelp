@@ -2,7 +2,7 @@ import React from 'react';
 import {
     View, SafeAreaView, Text, Image, ScrollView,
 } from 'react-native';
-import styles from '../styles/dowloadStyle.js';
+import styles from '../styles/dowloadStyle';
 import header from '../Image/header.jpg';
 import bg from '../Image/bg.png';
 import backimg from '../Image/back-removebg-preview.png';
