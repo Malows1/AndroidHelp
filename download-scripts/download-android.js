@@ -3,15 +3,15 @@ import {
     View, SafeAreaView, Text, Image, ScrollView,
 } from 'react-native';
 import styles from '../styles/dowload-style';
-import header from '../image/header-background.jpg';
-import bg from '../image/background.png';
-import backimg from '../image/back-icon.png';
-import playstore from '../image/open-playstore.png';
-import search from '../image/search-app.png';
-import finish from '../image/download-finish.png';
-import open from '../image/open-app.png';
+import downloadTutorialHeader from '../image-tutorial/header-background.jpg';
+import imageBackground from '../image-tutorial/background.png';
+import backIcon from '../image-tutorial/back-icon.png';
+import openPlaystore from '../image-tutorial/open-playstore.png';
+import appSearch from '../image-tutorial/search-app.png';
+import downloadFinish from '../image-tutorial/download-finish.png';
+import open from '../image-tutorial/open-app.png';
 
-const AndroidHelp = () => (
+const DownloadAndroid = () => (
     <ScrollView>
         <SafeAreaView style={styles.content}>
             <View style={styles.title}>
@@ -24,7 +24,7 @@ const AndroidHelp = () => (
                     {'\n'}
                     Store icon open the App
                 </Text>
-                <Image source={playstore} style={styles.openplay}/>
+                <Image source={openPlaystore} style={styles.openplay}/>
 
                 <View style={styles.step2}>
                     <Text style={styles.textstyle}>
@@ -35,7 +35,7 @@ const AndroidHelp = () => (
                         screen
                         {' '}
                     </Text>
-                    <Image source={search} style={styles.search}/>
+                    <Image source={appSearch} style={styles.search}/>
                 </View>
 
                 <View style={styles.step3}>
@@ -46,7 +46,7 @@ const AndroidHelp = () => (
                         {' '}
                         it show this
                     </Text>
-                    <Image source={finish} style={styles.open}/>
+                    <Image source={downloadFinish} style={styles.open}/>
                 </View>
 
                 <View style={styles.step4}>
@@ -62,11 +62,11 @@ const AndroidHelp = () => (
             </View>
             <View/>
         </SafeAreaView>
-        <Image source={bg} style={styles.background}/>
-        <Image source={bg} style={styles.background}/>
-        <Image source={backimg} style={styles.back}/>
-        <Image source={header} style={styles.header}/>
+        <Image source={imageBackground} style={styles.background}/>
+        <Image source={imageBackground} style={styles.background}/>
+        <Image source={backIcon} style={styles.back}/>
+        <Image source={downloadTutorialHeader} style={styles.header}/>
     </ScrollView>
 );
 
-export default AndroidHelp;
+export default DownloadAndroid;
