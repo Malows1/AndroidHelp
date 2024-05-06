@@ -1,6 +1,6 @@
 import React from 'react';
 import { View } from 'react-native';
-import Home from './androidhelp/downloadAndroid';
+import Home from './download-scripts/download-android';
 
 const App = () => (
     <View>

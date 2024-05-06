@@ -2,14 +2,14 @@ import React from 'react';
 import {
     View, SafeAreaView, Text, Image, ScrollView,
 } from 'react-native';
-import styles from '../styles/dowloadStyle';
-import header from '../Image/header.jpg';
-import bg from '../Image/bg.png';
-import backimg from '../Image/back-removebg-preview.png';
-import playstore from '../Image/playstore.png';
-import search from '../Image/search.png';
-import finish from '../Image/finishdl.png';
-import open from '../Image/open.png';
+import styles from '../styles/dowload-style';
+import header from '../image/header-background.jpg';
+import bg from '../image/background.png';
+import backimg from '../image/back-icon.png';
+import playstore from '../image/open-playstore.png';
+import search from '../image/search-app.png';
+import finish from '../image/download-finish.png';
+import open from '../image/open-app.png';
 
 const AndroidHelp = () => (
     <ScrollView>
