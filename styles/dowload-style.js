@@ -1,6 +1,6 @@
 import { StyleSheet, Dimensions } from 'react-native';
 
-const DownloadStyles = StyleSheet.create({
+const DownloadStyle = StyleSheet.create({
     container: {
         flex: 1,
     },
@@ -86,4 +86,4 @@ const DownloadStyles = StyleSheet.create({
     },
 });
 
-export default DownloadStyles;
+export default DownloadStyle;
