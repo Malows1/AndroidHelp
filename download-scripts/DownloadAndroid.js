@@ -2,7 +2,7 @@ import React from 'react';
 import {
     View, SafeAreaView, Text, Image, ScrollView,
 } from 'react-native';
-import styles from '../styles/dowload-style';
+import styles from '../styles/DowloadStyle';
 import downloadTutorialHeader from '../image-tutorial/header-background.jpg';
 import imageBackground from '../image-tutorial/background.png';
 import backIcon from '../image-tutorial/back-icon.png';
